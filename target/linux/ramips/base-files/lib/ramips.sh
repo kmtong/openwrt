@@ -221,6 +221,9 @@ ramips_board_name() {
 	*"XDX RN502J")
 		name="xdxrn502j"
 		;;
+	*"HG255D")
+		name="hg255d"
+		;;
 	*)
 		name="generic"
 		;;

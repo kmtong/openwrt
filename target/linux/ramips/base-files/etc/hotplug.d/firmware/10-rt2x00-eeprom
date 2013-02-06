@@ -94,7 +94,8 @@ case "$FIRMWARE" in
 	wr6202 | \
 	mzk-w300nh2 | \
 	ur-336un | \
-	xdxrn502j)
+	xdxrn502j | \
+	hg255d)
 		rt2x00_eeprom_extract "factory" 0 272
 		;;
 
